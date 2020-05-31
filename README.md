@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RocketShoes
 
-## Available Scripts
+Projeto do Sétimo Módulo do Bootcamp GoStack. O Projeto consiste em criar um sistema web estilo e-commerce, listando os produtos (tênis), simples descrição e valor, onde o usuário pode inserir o produto no carrinho, na tela de carrinho mostra todos os produtos com suas respectivas informações, valores e quantidades que o usuário pretende comprar, junto ao total do pedido.
 
-In the project directory, you can run:
+## Tecnologias
 
-### `yarn start`
+Banco Dados: Json Server
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Front-end: ReactJs
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Para rodar a aplicação
 
-### `yarn test`
+Execute npm install para instalar as dependências.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Rode `json-server server.json -p 3333` para que o servidor forneça a api na port 3333.
 
-### `yarn build`
+Rode npm start para que inicie a aplicação na porta 3000.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Demonstração
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Tela Inicial**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Tela Inicial](https://lh3.googleusercontent.com/9K8jgL1tqv1QxGkBPaOPn0sGLNgiA8k2DhAIsYZ3ab7KWPm3gM4mk8wzW4g0_8eiAqI__56TQRNpj2FBt-DtlcQLEII17ufTM4XKQs0P3EY4ZgUmHz4ktp4OsKDGIpAgR9X4j9_w5Ggvm7zJUhOzjuvGWRHd232E2_8uitM0zklZKNMP-QXTkDYuoVY3KYQ-r01zvO3eBNotJtIbck-hQH0UX1PF1eoOo_CqxgdXGkcxGqEVCwph230gg8TsQt4Ku09if6-yKP7SYrpKb-xMViKWKJQNqg12vzd0lq-XD8mAOTjK08zlWkxBjtuEEOoGvlu9Hq8u0o2Kx612qd76Rtf-a7dYw0t3p6P-964h_GfQeS9EcPpzbHmtf5TulHioa58fP64Ho8myAkPBTwEqPA5PnpPyUIvx6BeHsgFyY5fp12A2KMMLYlUMeii-kOpXtoh_kUwJvaW2svqXnNzG4ZRBZ7SwGaNVipCUiRXfHAPTEX1a84Bs8yWVQWgL7czjar4qzWo5_VWs_45rGpIeGfzIq9v01caY_GH7K6ToVAhfGUfJQ80mWzfQ2yc4-BmjXoK2O6g5MPIz5oB37yte22iZO-VUp4K9WOh3rx6kqH5CiYf1d1Cn7_dOkaIC-9WfQPmZ38eT5IV1N3P07C9zeJvyZOdLHf1bTZrVb1EY5jge3YG10_fZj0iOB0dG=w1527-h793-no?authuser=0)
 
-### `yarn eject`
+**Tela Carrinho**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Tela Carrinho](https://lh3.googleusercontent.com/79Np-YTsxflwj9OaTFyis-01I80CTLbWfu8xIYt3sSf7x-Rg4jA8w39p9FgRVLK084Ov1KeZeDsaMYvXcBAl0RQzvyFdKL9OgWpT5Es-yMozZldERvkKJ_GH3wpioJ5hZa-ked64AYuo-_3uo7sFTQDtSSOxJOtTCv0vAdRv4mLDPzHPv2Uqsst9VkW7d_wU7Nh-ZppAThW_-WvtGYc60jEsQNO3Y094OzPPGtn11plSGET1vBaEA-qEX6kfnoBI3UspZ6gtzIqzI-DiL07rlBm9vLm9WDUZZvgOxQjzJOMRjqO1W6bbtOQAavSCpj_iYke2tKAAjx9-IB5wud1N6pSHOcdZXoF0ay3aHgUKq1HhH5EtQDmST2UEwbfJwLa5UfQ3IS3p3c-kCWxo6QYcimMxRM1okhKO9Nx4jqSukd8SgOnamWGoBjI1QcKWczmO5adPQVJvXdzgnee2oG7wE0d85rZMMg433TzyWJ0O5d1qIfSVMoS2TUMTCxCXca0tSt8-wrrszkqeqdFnp58OQqcE-S2hl96u6J86kBA5v35WW3He9eIIY-qIiWAIauIckyXHmQyQSIswpsCIqzi54HGL_mmvlGOa_wZZDfEwA3d1oAAai5JEgq9FVHiehW1rPyoNuWQMo1m2fcMs5tzGCo768m5rgGF0WDS50RaIXhQt1T_9HoY-ZndY7XmZ=w1510-h823-no?authuser=0)
